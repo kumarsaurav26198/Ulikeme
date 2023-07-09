@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import {Text, TextInput, TouchableOpacity, View} from 'react-native';
 import {useDispatch} from 'react-redux';
-import {Button, ScreenWrapper} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
+import {Button, ScreenWrapper} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
 import {height, width} from '../../../utills/Dimension';
 import CountryPicker from 'react-native-country-picker-modal';
 import styles from './styles';
-import ArrowDownSvg from '~components/arrowDownSvg';
+import ArrowDownSvg from '../../../components/arrowDownSvg';
 import ScreenNames from '../../../routes/routes';
 import { handleSignInWithPhone } from '~firebase/FirebaseConfig';
 export default function Signin({navigation, route}) {

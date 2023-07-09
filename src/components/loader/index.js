@@ -2,7 +2,7 @@ import React from 'react';
 import {ActivityIndicator, Text, View} from 'react-native';
 import Modal from 'react-native-modal';
 import {useSelector} from 'react-redux';
-import {selectAppLoader} from '~redux/slices/configSlice';
+import {selectAppLoader} from "../../redux/slices/configSlice";
 import AppColors from '../../utills/AppColors';
 import styles from './styles';
 export default function Loader() {

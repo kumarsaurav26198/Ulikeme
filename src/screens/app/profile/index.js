@@ -7,14 +7,14 @@ import {
   ScreenWrapper,
   SettingsSvg,
   SilverHeartSvg,
-} from '~components';
+} from '../../../components';
 import AppColors from '../../../utills/AppColors';
 import styles from './styles';
-import Avatar from '~assets/images/Gabriela.png';
+import Avatar from '../../../assets/images/Gabriela.png';
 import CommonStyles from '../../../utills/CommonStyles';
 import LinearGradient from 'react-native-linear-gradient';
-import ArrowDownSvg from '~components/arrowDownSvg';
-import BackArrowSvg from '~components/backArrowSvg';
+import ArrowDownSvg from '../../../components/arrowDownSvg';
+import BackArrowSvg from '../../../components/backArrowSvg';
 import ScreenNames from '../../../routes/routes';
 export default function Profile({navigation, route}) {
   const profileOptions = [

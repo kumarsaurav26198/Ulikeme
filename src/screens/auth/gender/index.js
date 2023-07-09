@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import {FlatList, Image, Text, TouchableOpacity, View} from 'react-native';
-import {Button, ScreenWrapper} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
+import {Button, ScreenWrapper} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
 import ScreenNames from '../../../routes/routes';
 import {height} from '../../../utills/Dimension';
 import styles from './styles';
-import EmptyCircle from '~assets/images/unselectedCircle.png';
-import SelectedCircle from '~assets/images/selectedCircle.png';
+import EmptyCircle from '../../../assets/images/unselectedCircle.png';
+import SelectedCircle from '../../../assets/images/selectedCircle.png';
 import AppColors from '../../../utills/AppColors';
 export default function Gender({navigation, route}) {
   const isShowMeScreen = route?.params?.isShowMeScreen;

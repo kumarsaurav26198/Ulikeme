@@ -2,8 +2,8 @@ import React, {useCallback, useEffect, useLayoutEffect, useState} from 'react';
 import {FlatList, Image, Text, TouchableOpacity, View} from 'react-native';
 import {WaveIndicator} from 'react-native-indicators';
 import PagerView from 'react-native-pager-view';
-import HeaderLogo from '~assets/images/appLogo2.png';
-import CenterHeart from '~assets/images/heartSilver.png';
+import HeaderLogo from '../../../assets/images/appLogo2.png';
+import CenterHeart from '../../../assets/images/heartSilver.png';
 import {
   CrossSvg,
   MenuDotsSvg,
@@ -11,28 +11,28 @@ import {
   ScreenWrapper,
   TutorialPager,
   UserProfileModal,
-} from '~components';
-import EmotionButtons from '~components/emotionButtons';
+} from '../../../components';
+import EmotionButtons from '../../../components/emotionButtons';
 import AppColors from '../../../utills/AppColors';
 import styles from './styles';
-import GirlPreview from '~assets/images/girlPreview.png';
-import MusicThumb from '~assets/images/musicThumbnail.png';
-import InstaIcon from '~assets/images/instaIcon.png';
-import Insta1 from '~assets/images/insta1.png';
-import Insta2 from '~assets/images/insta2.png';
-import Insta3 from '~assets/images/insta3.png';
-import Insta4 from '~assets/images/insta4.png';
-import Insta5 from '~assets/images/insta5.png';
-import LikeIcon from '~assets/images/like.png';
-import HeartIcon from '~assets/images/heart.png';
-import DislikeIcon from '~assets/images/dislike.png';
+import GirlPreview from '../../../assets/images/girlPreview.png';
+import MusicThumb from '../../../assets/images/musicThumbnail.png';
+import InstaIcon from '../../../assets/images/instaIcon.png';
+import Insta1 from '../../../assets/images/insta1.png';
+import Insta2 from '../../../assets/images/insta2.png';
+import Insta3 from '../../../assets/images/insta3.png';
+import Insta4 from '../../../assets/images/insta4.png';
+import Insta5 from '../../../assets/images/insta5.png';
+import LikeIcon from '../../../assets/images/like.png';
+import HeartIcon from '../../../assets/images/heart.png';
+import DislikeIcon from '../../../assets/images/dislike.png';
 import LinearGradient from 'react-native-linear-gradient';
 import CommonStyles from '../../../utills/CommonStyles';
-import Spotify from '~assets/images/spotify.png';
-import Profile from '~assets/images/profileIcondark.png';
-import Briefcase from '~assets/images/briefcaseIcon.png';
-import Location from '~assets/images/locationIcon.png';
-import {setBottomTabVisible} from '~redux/slices/configSlice';
+import Spotify from '../../../assets/images/spotify.png';
+import Profile from '../../../assets/images/profileIcondark.png';
+import Briefcase from '../../../assets/images/briefcaseIcon.png';
+import Location from '../../../assets/images/locationIcon.png';
+import {setBottomTabVisible} from '../../../redux/slices/configSlice';
 import {useDispatch} from 'react-redux';
 
 const previewImagesArray = [

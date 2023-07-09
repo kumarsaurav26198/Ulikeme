@@ -10,24 +10,22 @@ import {
   View,
 } from 'react-native';
 import {useDispatch} from 'react-redux';
-import {Button, ChatList, ScreenWrapper, StatusOverlay} from '~components';
-import {ChatHeader} from '~components/Header';
+import {Button, ChatList, ScreenWrapper, StatusOverlay} from '../../../components';
+import {ChatHeader} from '../../../components/Header';
 import AppColors from '../../../utills/AppColors';
 import {height, width} from '../../../utills/Dimension';
-import {setBottomTabVisible} from '~redux/slices/configSlice';
+import {setBottomTabVisible} from '../../../redux/slices/configSlice';
 import styles from './styles';
-import Match3 from '~assets/images/match3.png';
-import Match4 from '~assets/images/match4.png';
-import Mic from '~assets/images/mic.png';
-import Status1 from '~assets/images/status1.png';
-import Status2 from '~assets/images/status2.png';
-import Status3 from '~assets/images/status3.png';
-import ArrowDown from '~assets/images/arrowDown.png';
-import Tick from '~assets/images/tick.png';
-import Star from '~assets/images/chatStar.png';
-import {useKeyboard} from '~hooks/useKeyboard';
-import {height, width} from '../../../utills/Dimension';
-
+import Match3 from '../../../assets/images/match3.png';
+import Match4 from '../../../assets/images/match4.png';
+import Mic from '../../../assets/images/mic.png';
+import Status1 from '../../../assets/images/status1.png';
+import Status2 from '../../../assets/images/status2.png';
+import Status3 from '../../../assets/images/status3.png';
+import ArrowDown from '../../../assets/images/arrowDown.png';
+import Tick from '../../../assets/images/tick.png';
+import Star from '../../../assets/images/chatStar.png';
+import {useKeyboard} from '../../../hooks/useKeyboard';
 import {RNHoleView} from 'react-native-hole-view';
 import Modal from 'react-native-modal';
 const messagesArray = [

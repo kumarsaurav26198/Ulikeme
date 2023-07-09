@@ -2,13 +2,13 @@ import React, {useEffect, useLayoutEffect, useState} from 'react';
 import {FlatList, Text, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {useDispatch} from 'react-redux';
-import {ScreenWrapper} from '~components';
-import {SimpleHeader} from '~components/Header';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
-import {setBottomTabVisible} from '~redux/slices/configSlice';
+import {ScreenWrapper} from '../../../components';
+import {SimpleHeader} from '../../../components/Header';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
+import {setBottomTabVisible} from '../../../redux/slices/configSlice';
 import AppColors from '../../../utills/AppColors';
-import CommonStyles from '../../utills/CommonStyles';
+import CommonStyles from "../../../utills/CommonStyles";
 import styles from './styles';
 const benefitsArray = [
   {id: '1', title: 'Get 5 points', gradientText: 'See announcement'},

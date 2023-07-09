@@ -34,7 +34,7 @@ import {
 } from '../../screens/auth';
 import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
 import {useSelector} from 'react-redux';
-import {selectBottomTabVisible} from '~redux/slices/configSlice';
+import {selectBottomTabVisible} from '../../redux/slices/configSlice';
 
 
 const Tab = createBottomTabNavigator();

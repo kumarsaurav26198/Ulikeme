@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {ActivityIndicator, Text, TouchableOpacity, View} from 'react-native';
 import Modal from 'react-native-modal';
-import {Button, CrossSvg} from '~components';
+import {Button, CrossSvg} from '../../components';
 import styles from './styles';
 import {Picker} from '@react-native-picker/picker';
 

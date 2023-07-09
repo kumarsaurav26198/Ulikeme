@@ -1,8 +1,8 @@
 import React from 'react';
 import {FlatList, Image, Platform, Text, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import {MeetChatView} from '~components';
-import {useKeyboard} from '~hooks/useKeyboard';
+import {MeetChatView} from '../../components';
+import {useKeyboard} from '../../hooks/useKeyboard';
 import AppColors from '../../utills/AppColors';
 import {height, width} from '../../utills/Dimension';
 import Fonts from '../../utills/Fonts';

@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import {Image, View} from 'react-native';
 import {WaveIndicator} from 'react-native-indicators';
-import HeaderLogo from '~assets/images/appLogo2.png';
-import CenterHeart from '~assets/images/heartSilver.png';
-import {ScreenWrapper, TutorialPager} from '~components';
-import EmotionButtons from '~components/emotionButtons';
+import HeaderLogo from '../../../assets/images/appLogo2.png';
+import CenterHeart from '../../../assets/images/heartSilver.png';
+import {ScreenWrapper, TutorialPager} from '../../../components';
+import EmotionButtons from '../../../components/emotionButtons';
 import ScreenNames from '../../../routes/routes';
 import AppColors from '../../../utills/AppColors';
 import {height} from '../../../utills/Dimension';

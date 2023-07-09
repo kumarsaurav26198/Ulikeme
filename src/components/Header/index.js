@@ -1,12 +1,11 @@
 import React from 'react';
 import {Image, Text, TouchableOpacity, View} from 'react-native';
-import HeaderLogo from '~assets/images/headerLogo.png';
-import HeaderLogo2 from '~assets/images/appLogo3.png';
-import BackArrowSvg from '~components/backArrowSvg';
-import Button from '~components/button';
+import HeaderLogo from '../../assets/images/headerLogo.png';
+import HeaderLogo2 from '../../assets/images/appLogo3.png';
+import BackArrowSvg from '../../components/backArrowSvg';
+import Button from '../../components/button';
 import AppColors from '../../utills/AppColors';
 import {height, width} from '../../utills/Dimension';
-import {width} from '../../utills/Dimension';
 import styles from './styles';
 export default function Header({
   backgroundColor = AppColors.white,

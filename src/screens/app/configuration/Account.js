@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {Br, Select} from '~components';
+import {Br, Select} from '../../../components';
 import ScreenNames from '../../../routes/routes';
 import styles from './styles';
 

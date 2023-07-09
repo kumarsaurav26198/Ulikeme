@@ -7,15 +7,15 @@ import {
   View,
 } from 'react-native';
 import styles from './styles';
-import Heart from '~assets/images/smallHeart.png';
-import MeetImage from '~assets/images/meetImage.png';
-import BackArrowSvg from '~components/backArrowSvg';
+import Heart from '../../assets/images/smallHeart.png';
+import MeetImage from '../../assets/images/meetImage.png';
+import BackArrowSvg from '../../components/backArrowSvg';
 import CommonStyles from '../../utills/CommonStyles';
-import ChevronDownSvg from '~components/chevronDownSvg';
+import ChevronDownSvg from '../../components/chevronDownSvg';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import moment from 'moment';
-import AreaPickerModal from '~components/areaPickerModal';
-import Button from '~components/button';
+import AreaPickerModal from '../../components/areaPickerModal';
+import Button from '../../components/button';
 const TIME_INITIAL = 'Seleccionar la fecha y hora';
 const PLACE_INITIAL = 'Escoger el área';
 const MeetChatView = ({onAcceptMeetPress, meetData}) => {
