@@ -111,7 +111,7 @@ export default function ChatList({navigation, route}) {
           />
         </View>
         <View style={styles.textContainer}>
-          <View style={CommonStyles.rowAlignItemCenter}>
+          <View style={styles.rowAlignItemCenter}>
             <Text style={styles.nameText}>{item.name}</Text>
             {item.isHeart && (
               <Image
@@ -145,7 +145,7 @@ export default function ChatList({navigation, route}) {
         </View>
         <View
           style={[
-            CommonStyles.rowAlignItemCenter,
+            styles.rowAlignItemCenter,
             {marginHorizontal: width(3), marginTop: height(1.5)},
           ]}>
           <TouchableOpacity

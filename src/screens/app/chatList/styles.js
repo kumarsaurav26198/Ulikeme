@@ -165,5 +165,9 @@ const styles = StyleSheet.create({
     height: 0.75,
     backgroundColor: AppColors.bgGrey2,
   },
+  rowAlignItemCenter: {
+    flexDirection: 'row',
+    alignItems: 'center'
+},
 });
 export default styles;
