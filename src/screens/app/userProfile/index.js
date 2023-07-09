@@ -13,9 +13,7 @@ import {
   UserProfileModal,
 } from '~components';
 import EmotionButtons from '~components/emotionButtons';
-import ScreenNames from '~routes/routes';
 import AppColors from '../../../utills/AppColors';
-import {height} from '../../../utills/Dimension';
 import styles from './styles';
 import GirlPreview from '~assets/images/girlPreview.png';
 import MusicThumb from '~assets/images/musicThumbnail.png';

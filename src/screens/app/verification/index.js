@@ -15,7 +15,6 @@ import {
 } from '~components';
 import EmotionButtons from '~components/emotionButtons';
 import {SimpleHeader} from '~components/Header';
-import ScreenNames from '~routes/routes';
 import AppColors from '../../../utills/AppColors';
 import CommonStyles from '../../../utills/CommonStyles';
 import {height, width} from '../../../utills/Dimension';

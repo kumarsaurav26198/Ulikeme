@@ -7,7 +7,7 @@ import styles from './styles';
 import AppColors from '../../../utills/AppColors';
 import SmallHeart from '~assets/images/smallHeart.png';
 import {height} from '../../../utills/Dimension';
-import ScreenNames from '~routes/routes';
+
 export default function UnderDevelopmentScreen({navigation, route}) {
   const renderSection = () => {
     return (

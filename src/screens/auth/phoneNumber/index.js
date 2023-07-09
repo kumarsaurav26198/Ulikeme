@@ -9,7 +9,7 @@ import {height, width} from '../../../utills/Dimension';
 import CountryPicker from 'react-native-country-picker-modal';
 import styles from './styles';
 import ArrowDownSvg from '~components/arrowDownSvg';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import { handleSignInWithPhone } from '~firebase/FirebaseConfig';
 export default function Signin({navigation, route}) {
   const isFromLogin = route?.params?.isFromLogin || false;

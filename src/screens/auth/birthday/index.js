@@ -7,7 +7,7 @@ import ArrowDownSvg from '~components/arrowDownSvg';
 import BackArrowSvg from '~components/backArrowSvg';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import {height, width} from '../../../utills/Dimension';
 import styles from './styles';
 export default function Birthday({navigation, route}) {

@@ -19,11 +19,11 @@ import {
   ShowmeScreen,
   SignInScreen,
   WelcomeScreen,
-} from '~screens/auth';
+} from '../screens/auth';
 import AppColors from '.././utills/AppColors';
 import BottomTabs from './BottomTab';
 import ScreenNames from './routes';
-import {AppointmentPreferenceScreen, InterestsScreen} from '~screens/app';
+import {AppointmentPreferenceScreen, InterestsScreen} from '../screens/app';
 const Stack = createNativeStackNavigator();
 
 export default function Routes() {

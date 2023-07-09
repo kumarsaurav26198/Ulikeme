@@ -4,7 +4,7 @@ import {Button, ScreenWrapper} from '~components';
 import BackArrowSvg from '~components/backArrowSvg';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import {height} from '../../../utills/Dimension';
 import styles from './styles';
 import EmptyCircle from '~assets/images/unselectedCircle.png';

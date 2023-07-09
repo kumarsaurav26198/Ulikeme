@@ -27,8 +27,7 @@ import Avatar1 from '~assets/images/match3.png';
 import Avatar2 from '~assets/images/match4.png';
 import Avatar3 from '~assets/images/match5.png';
 import Avatar4 from '~assets/images/match6.png';
-import CommonStyles from '../../../utills/CommonStyles';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import AreaPickerModal from '~components/areaPickerModal';
 
 const filtersArray = [

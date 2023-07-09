@@ -3,7 +3,7 @@ import { Image, Text, View } from 'react-native';
 import { useDispatch } from 'react-redux';
 import AppLogo from '~assets/images/appLogo.png';
 import { Button, ScreenWrapper } from '~components';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import styles from './styles';
 export default function Landing({ navigation, route }) {
     const dispatch = useDispatch()
