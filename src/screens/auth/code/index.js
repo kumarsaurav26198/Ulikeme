@@ -7,7 +7,7 @@ import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import {height} from '../../../utills/Dimension';
 import styles from './styles';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import {useDispatch} from 'react-redux';
 import {login} from '~redux/slices/authSlice';
 

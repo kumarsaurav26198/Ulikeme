@@ -3,7 +3,7 @@ import {Text, TouchableOpacity, View} from 'react-native';
 import {Br, Select} from '~components';
 import RadioOffSvg from '~components/radioOff';
 import RadioOnSvg from '~components/radioOn';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import styles from './styles';
 
 const Notification = ({userInfo, setUserInfo, navigation}) => {

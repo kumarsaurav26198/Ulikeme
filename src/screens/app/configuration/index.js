@@ -15,7 +15,6 @@ import {SimpleHeader} from '~components/Header';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import {setBottomTabVisible} from '~redux/slices/configSlice';
-import ScreenNames from '~routes/routes';
 import AppColors from '../../../utills/AppColors';
 import {height, width} from '../../../utills/Dimension';
 import styles from './styles';

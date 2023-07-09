@@ -11,7 +11,7 @@ import RadioOffSvg from '~components/radioOff';
 import Heart from '~assets/images/smallHeart.png';
 import {logout} from '~redux/slices/authSlice';
 import {useDispatch} from 'react-redux';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 
 const General = ({userInfo, navigation, setUserInfo}) => {
   const INITIAL_DISTANCE = userInfo?.distance;

@@ -8,7 +8,7 @@ import BackArrowSvg from '~components/backArrowSvg';
 import EmotionButtons from '~components/emotionButtons';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import AppColors from '../../../utills/AppColors';
 import {height} from '../../../utills/Dimension';
 import styles from './styles';

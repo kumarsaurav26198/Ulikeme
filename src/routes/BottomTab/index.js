@@ -22,8 +22,8 @@ import {
   StarScreen,
   UserProfileScreen,
   VerificationScreen,
-} from '~screens/app';
-import ScreenNames from '~routes/routes';
+} from '../../screens/app';
+import ScreenNames from '../routes';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import CustomBottomTab from './CustomBottomTab';
 import {
@@ -31,11 +31,11 @@ import {
   PhoneNumberScreen,
   SexualOrientationScreen,
   UnderDevelopmentScreen,
-} from '~screens/auth';
+} from '../../screens/auth';
 import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
 import {useSelector} from 'react-redux';
 import {selectBottomTabVisible} from '~redux/slices/configSlice';
-import ConnectedAccounts from '~screens/app/connectedAccounts';
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();

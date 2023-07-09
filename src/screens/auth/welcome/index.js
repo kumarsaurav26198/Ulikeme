@@ -8,7 +8,7 @@ import AppColors from '../../../utills/AppColors';
 import {height, width} from '../../../utills/Dimension';
 import SmallHeart from '~assets/images/smallHeart.png';
 import {height} from '../../../utills/Dimension';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 export default function Welcome({navigation, route}) {
   const renderSection = () => {
     return (

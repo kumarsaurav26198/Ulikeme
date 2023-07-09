@@ -40,7 +40,7 @@ import MusicThumb from '~assets/images/musicThumbnail.png';
 import styles from './styles';
 import CommonStyles from '../../../utills/CommonStyles';
 import BackArrowSvg from '~components/backArrowSvg';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import PagerView from 'react-native-pager-view';
 import LinearGradient from 'react-native-linear-gradient';
 import Insta1 from '~assets/images/insta1.png';

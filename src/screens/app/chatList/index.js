@@ -12,7 +12,7 @@ import Heart from '~assets/images/tabHeartActive.png';
 import Logo from '~assets/images/headerLogo.png';
 import {height, width} from '../../utils/Dimension';
 import CommonStyles from '../../utils/CommonStyles';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 const newMatchesArray = [
   {id: '1', isHeart: true, image: Match3},
   {id: '2', isHeart: false, image: Match4},
