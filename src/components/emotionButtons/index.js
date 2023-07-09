@@ -9,10 +9,10 @@ import {
 import AppColors from '../../utills/AppColors';
 import {height, width} from '../../utills/Dimension';
 import Fonts from '../../utills/Fonts';
-import Like from '~assets/images/like.png';
-import Share from '~assets/images/yellowShare.png';
-import Heart from '~assets/images/heart.png';
-import Dislike from '~assets/images/dislike.png';
+import Like from '../../assets/images/like.png';
+import Share from '../../assets/images/yellowShare.png';
+import Heart from '../../assets/images/heart.png';
+import Dislike from '../../assets/images/dislike.png';
 import styles from './styles';
 import {State, TapGestureHandler} from 'react-native-gesture-handler';
 import DoubleClick from 'react-native-double-tap';

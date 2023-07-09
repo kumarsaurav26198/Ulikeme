@@ -13,22 +13,22 @@ import {
   SadSvg,
   ScreenWrapper,
   UserEvent,
-} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
+} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
 import ScreenNames from '../../../routes/routes';
 import styles from './styles';
-import EmptyCircle from '~assets/images/unselectedCircle.png';
-import SelectedCircle from '~assets/images/selectedCircle.png';
+import EmptyCircle from '../../../assets/images/unselectedCircle.png';
+import SelectedCircle from '../../../assets/images/selectedCircle.png';
 import {height} from '../../../utills/AppColors';
 import AppColors from '../../../utills/AppColors';
-import {SimpleHeader} from '~components/Header';
-import {UserEventType} from '../../../utillßs/Enums';
-import Avatar1 from '~assets/images/match3.png';
-import Avatar2 from '~assets/images/match4.png';
-import Avatar3 from '~assets/images/match5.png';
-import Avatar4 from '~assets/images/match6.png';
+import {SimpleHeader} from '../../../components/Header';
+import {UserEventType} from '../../../utills/Enums';
+import Avatar1 from '../../../assets/images/match3.png';
+import Avatar2 from '../../../assets/images/match4.png';
+import Avatar3 from '../../../assets/images/match5.png';
+import Avatar4 from '../../../assets/images/match6.png';
 const userEventsArray = [
   {
     id: '1',

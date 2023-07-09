@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, ImageBackground, Text, View} from 'react-native';
 import styles from './styles';
-import Spotify from '~assets/images/spotify.png';
+import Spotify from '../../assets/images/spotify.png';
 
 const MusicCard = ({musicData}) => {
   return (

@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import {Image, Text, TouchableOpacity, View} from 'react-native';
 import {useDispatch} from 'react-redux';
-import {Button, GalleryModal, ScreenWrapper, SmallPlusSvg} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
-import {login} from '~redux/slices/authSlice';
+import {Button, GalleryModal, ScreenWrapper, SmallPlusSvg} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
+import {login} from '../../../redux/slices/authSlice';
 import AppColors from '../../../utills/AppColors';
 import CommonStyles from '../../../utills/CommonStyles';
 import styles from './styles';

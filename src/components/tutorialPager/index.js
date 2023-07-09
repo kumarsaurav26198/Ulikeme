@@ -8,17 +8,17 @@ import {
   View,
 } from 'react-native';
 import PagerView from 'react-native-pager-view';
-import WomanBg from '~assets/images/womanTut1.png';
-import TapIcon from '~assets/images/tap.png';
-import LikeIcon from '~assets/images/like.png';
-import ShareIcon from '~assets/images/yellowShare.png';
-import HeartIcon from '~assets/images/heart.png';
-import ManBg from '~assets/images/manTut2.png';
-import RedCrossIcon from '~assets/images/crossRed.png';
-import TutBg3 from '~assets/images/tut3.png';
-import Heart from '~assets/images/smallHeart.png';
-import Face from '~assets/images/centerImage.png';
-import Button from '~components/button';
+import WomanBg from '../../assets/images/womanTut1.png';
+import TapIcon from '../../assets/images/tap.png';
+import LikeIcon from '../../assets/images/like.png';
+import ShareIcon from '../../assets/images/yellowShare.png';
+import HeartIcon from '../../assets/images/heart.png';
+import ManBg from '../../assets/images/manTut2.png';
+import RedCrossIcon from '../../assets/images/crossRed.png';
+import TutBg3 from '../../assets/images/tut3.png';
+import Heart from '../../assets/images/smallHeart.png';
+import Face from '../../assets/images/centerImage.png';
+import Button from '../../components/button';
 import {height, width} from '../../utills/Dimension';
 import styles from './styles';
 

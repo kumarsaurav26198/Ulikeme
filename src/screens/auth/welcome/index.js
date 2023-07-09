@@ -1,13 +1,12 @@
 import React, {useState} from 'react';
 import {Image, Text, TouchableOpacity, View} from 'react-native';
-import {Button, ScreenWrapper} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import WelcomeBg from '~assets/images/welcomeBg.png';
+import {Button, ScreenWrapper} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import WelcomeBg from '../../../assets/images/welcomeBg.png';
 import styles from './styles';
 import AppColors from '../../../utills/AppColors';
 import {height, width} from '../../../utills/Dimension';
-import SmallHeart from '~assets/images/smallHeart.png';
-import {height} from '../../../utills/Dimension';
+import SmallHeart from '../../../assets/images/smallHeart.png';
 import ScreenNames from '../../../routes/routes';
 export default function Welcome({navigation, route}) {
   const renderSection = () => {

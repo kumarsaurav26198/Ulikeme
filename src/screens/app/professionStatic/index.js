@@ -1,10 +1,10 @@
 import React, {useLayoutEffect} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 import {useDispatch} from 'react-redux';
-import {BigHeartSvg, BriefcaseSvg, ScreenWrapper} from '~components';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
-import {setBottomTabVisible} from '~redux/slices/configSlice';
+import {BigHeartSvg, BriefcaseSvg, ScreenWrapper} from '../../../components';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
+import {setBottomTabVisible} from '../../../redux/slices/configSlice';
 import ScreenNames from '../../../routes/routes';
 import AppColors from '../../../utills/AppColors';
 import styles from './styles';

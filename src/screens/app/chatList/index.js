@@ -1,17 +1,17 @@
 import React, {useEffect, useState} from 'react';
 import {View, Text, FlatList, Image, TouchableOpacity} from 'react-native';
-import {ScreenWrapper} from '~components';
+import {ScreenWrapper} from '../../../components';
 import AppColors from '../../../utills/AppColors';
 import styles from './styles';
-import Match3 from '~assets/images/match3.png';
-import Match4 from '~assets/images/match4.png';
-import Match5 from '~assets/images/match5.png';
-import Match6 from '~assets/images/match6.png';
-import Match7 from '~assets/images/match7.png';
-import Heart from '~assets/images/tabHeartActive.png';
-import Logo from '~assets/images/headerLogo.png';
-import {height, width} from '../../utils/Dimension';
-import CommonStyles from '../../utils/CommonStyles';
+import Match3 from '../../../assets/images/match3.png';
+import Match4 from '../../../assets/images/match4.png';
+import Match5 from '../../../assets/images/match5.png';
+import Match6 from '../../../assets/images/match6.png';
+import Match7 from '../../../assets/images/match7.png';
+import Heart from '../../../assets/images/tabHeartActive.png';
+import Logo from '../../../assets/images/headerLogo.png';
+import {height, width} from '../../../utills/Dimension';
+import {CommonStyles} from "../../../utills/CommonStyles";
 import ScreenNames from '../../../routes/routes';
 const newMatchesArray = [
   {id: '1', isHeart: true, image: Match3},

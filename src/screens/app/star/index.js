@@ -16,19 +16,18 @@ import {
   SadSvg,
   ScreenWrapper,
   UserEvent,
-} from '~components';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
+} from '../../../components';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
 import AppColors from '../../../utills/AppColors';
-import {width} from '../../../utills/Dimension';
 import {UserEventType} from '../../../utills/Enums';
 import styles from './styles';
-import Avatar1 from '~assets/images/match3.png';
-import Avatar2 from '~assets/images/match4.png';
-import Avatar3 from '~assets/images/match5.png';
-import Avatar4 from '~assets/images/match6.png';
+import Avatar1 from '../../../assets/images/match3.png';
+import Avatar2 from '../../../assets/images/match4.png';
+import Avatar3 from '../../../assets/images/match5.png';
+import Avatar4 from '../../../assets/images/match6.png';
 import ScreenNames from '../../../routes/routes';
-import AreaPickerModal from '~components/areaPickerModal';
+import AreaPickerModal from '../../../components/areaPickerModal';
 
 const filtersArray = [
   {title: 'All', type: null},

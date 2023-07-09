@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import {Image, Text, TextInput, TouchableOpacity, View} from 'react-native';
-import {Button, ScreenWrapper} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
+import {Button, ScreenWrapper} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
 import {height} from '../../../utills/Dimension';
 import styles from './styles';
-import SelectedCircle from '~assets/images/selectedCircle.png';
+import SelectedCircle from '../../../assets/images/selectedCircle.png';
 
 const emailReg =
   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;

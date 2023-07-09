@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import {Image, Text, TouchableOpacity, View} from 'react-native';
-import {Button, ScreenWrapper} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import WelcomeBg from '~assets/images/welcomeBg.png';
+import {Button, ScreenWrapper} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import WelcomeBg from '../../../assets/images/welcomeBg.png';
 import styles from './styles';
 import AppColors from '../../../utills/AppColors';
-import SmallHeart from '~assets/images/smallHeart.png';
+import SmallHeart from '../../../assets/images/smallHeart.png';
 import {height} from '../../../utills/Dimension';
 
 export default function UnderDevelopmentScreen({navigation, route}) {

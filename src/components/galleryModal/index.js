@@ -7,12 +7,12 @@ import {
   View,
 } from 'react-native';
 import Modal from 'react-native-modal';
-import {Button, CrossSvg} from '~components';
+import {Button, CrossSvg} from '../../components';
 import styles from './styles';
 import {Picker} from '@react-native-picker/picker';
 import ImageCropPicker from 'react-native-image-crop-picker';
-import Gallery from '~assets/images/gallery.png';
-import Camera from '~assets/images/camera.png';
+import Gallery from '../../assets/images/gallery.png';
+import Camera from '../../assets/images/camera.png';
 
 const GalleryModal = ({isVisible, onImageSelect, onClose = () => {}}) => {
   const openCamera = () => {

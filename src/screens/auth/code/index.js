@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
 import OTPInputView from '@twotalltotems/react-native-otp-input';
 import {Text, TouchableOpacity, View} from 'react-native';
-import {Button, ScreenWrapper} from '~components';
-import BackArrowSvg from '~components/backArrowSvg';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
+import {Button, ScreenWrapper} from '../../../components';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
 import {height} from '../../../utills/Dimension';
 import styles from './styles';
 import ScreenNames from '../../../routes/routes';
 import {useDispatch} from 'react-redux';
-import {login} from '~redux/slices/authSlice';
+import {login} from '../../../redux/slices/authSlice';
 
 export default function Code({navigation, route}) {
   const isFromLogin = route?.params?.isFromLogin || false;

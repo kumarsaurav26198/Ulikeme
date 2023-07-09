@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
-import {Br, ScreenWrapper} from '~components';
-import {SimpleHeader} from '~components/Header';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
-import RadioOffSvg from '~components/radioOff';
-import RadioOnSvg from '~components/radioOn';
+import {Br, ScreenWrapper} from '../../../components';
+import {SimpleHeader} from '../../../components/Header';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
+import RadioOffSvg from '../../../components/radioOff';
+import RadioOnSvg from '../../../components/radioOn';
 import AppColors from '../../../utills/AppColors';
 import styles from './styles';
 export default function ConnectedAccounts({navigation, route}) {

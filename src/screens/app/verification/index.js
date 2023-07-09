@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import {Image, Text, TextInput, TouchableOpacity, View} from 'react-native';
 import {WaveIndicator} from 'react-native-indicators';
-import HeaderLogo from '~assets/images/appLogo2.png';
-import CenterHeart from '~assets/images/heartSilver.png';
-import Instagram from '~assets/images/instagram.png';
-import Spotify from '~assets/images/spotify.png';
+import HeaderLogo from '../../../assets/images/appLogo2.png';
+import CenterHeart from '../../../assets/images/heartSilver.png';
+import Instagram from '../../../assets/images/instagram.png';
+import Spotify from '../../../assets/images/spotify.png';
 import {
   Br,
   Button,
@@ -12,15 +12,15 @@ import {
   ScreenWrapper,
   SmallPlusSvg,
   TutorialPager,
-} from '~components';
-import EmotionButtons from '~components/emotionButtons';
-import {SimpleHeader} from '~components/Header';
+} from '../../../components';
+import EmotionButtons from '../../../components/emotionButtons';
+import {SimpleHeader} from '../../../components/Header';
 import AppColors from '../../../utills/AppColors';
 import CommonStyles from '../../../utills/CommonStyles';
 import {height, width} from '../../../utills/Dimension';
 import CountryPicker from 'react-native-country-picker-modal';
 import styles from './styles';
-import ArrowDownSvg from '~components/arrowDownSvg';
+import ArrowDownSvg from '../../../components/arrowDownSvg';
 export default function Verification({navigation, route}) {
   const [galleryModalVisible, setGalleryModalVisible] = useState(false);
   const [photo, setPhoto] = useState('');

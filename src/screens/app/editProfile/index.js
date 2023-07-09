@@ -22,32 +22,32 @@ import {
   ScreenWrapper,
   Select,
   SmallPlusSvg,
-} from '~components';
-import {SimpleHeader} from '~components/Header';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
-import {setBottomTabVisible} from '~redux/slices/configSlice';
+} from '../../../components';
+import {SimpleHeader} from '../../../components/Header';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
+import {setBottomTabVisible} from '../../../redux/slices/configSlice';
 import AppColors from '../../../utills/AppColors';
 import {height, width} from '../../../utills/Dimension';
-import Instagram from '~assets/images/instagram.png';
-import Spotify from '~assets/images/spotify.png';
-import Profile from '~assets/images/profileIcondark.png';
-import InstaIcon from '~assets/images/instaIcon.png';
-import Briefcase from '~assets/images/briefcaseIcon.png';
-import Location from '~assets/images/locationIcon.png';
-import GirlPreview from '~assets/images/girlPreview.png';
-import MusicThumb from '~assets/images/musicThumbnail.png';
+import Instagram from '../../../assets/images/instagram.png';
+import Spotify from '../../../assets/images/spotify.png';
+import Profile from '../../../assets/images/profileIcondark.png';
+import InstaIcon from '../../../assets/images/instaIcon.png';
+import Briefcase from '../../../assets/images/briefcaseIcon.png';
+import Location from '../../../assets/images/locationIcon.png';
+import GirlPreview from '../../../assets/images/girlPreview.png';
+import MusicThumb from '../../../assets/images/musicThumbnail.png';
 import styles from './styles';
 import CommonStyles from '../../../utills/CommonStyles';
-import BackArrowSvg from '~components/backArrowSvg';
+import BackArrowSvg from '../../../components/backArrowSvg';
 import ScreenNames from '../../../routes/routes';
 import PagerView from 'react-native-pager-view';
 import LinearGradient from 'react-native-linear-gradient';
-import Insta1 from '~assets/images/insta1.png';
-import Insta2 from '~assets/images/insta2.png';
-import Insta3 from '~assets/images/insta3.png';
-import Insta4 from '~assets/images/insta4.png';
-import Insta5 from '~assets/images/insta5.png';
+import Insta1 from '../../../assets/images/insta1.png';
+import Insta2 from '../../../assets/images/insta2.png';
+import Insta3 from '../../../assets/images/insta3.png';
+import Insta4 from '../../../assets/images/insta4.png';
+import Insta5 from '../../../assets/images/insta5.png';
 
 const previewImagesArray = [
   {
