@@ -6,7 +6,7 @@ import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import RadioOffSvg from '~components/radioOff';
 import RadioOnSvg from '~components/radioOn';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../../utills/AppColors';
 import styles from './styles';
 export default function ConnectedAccounts({navigation, route}) {
   const screenType = route?.params?.screenType || 'ConnectedAccounts'; // same screen for location and connected accounts

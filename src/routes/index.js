@@ -4,8 +4,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {ActivityIndicator, View} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 import {useSelector} from 'react-redux';
-import {Loader} from '~components';
-import {selectIsLogin} from '~redux/slices/authSlice';
+import {Loader} from '../components';
+import {selectIsLogin} from '../redux/slices/authSlice';
 import {
   AddPhotosScreen,
   BirthdayScreen,
@@ -20,7 +20,7 @@ import {
   SignInScreen,
   WelcomeScreen,
 } from '~screens/auth';
-import AppColors from '~utills/AppColors';
+import AppColors from '.././utills/AppColors';
 import BottomTabs from './BottomTab';
 import ScreenNames from './routes';
 import {AppointmentPreferenceScreen, InterestsScreen} from '~screens/app';

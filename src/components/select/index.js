@@ -1,6 +1,6 @@
 import React from 'react';
 import {ActivityIndicator, Text, TouchableOpacity, View} from 'react-native';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../utills/AppColors';
 import BackArrowSvg from '~components/backArrowSvg';
 import styles from './styles';
 

@@ -1,19 +1,19 @@
 import React from 'react';
 import {View, Image, TouchableOpacity, Text, Platform} from 'react-native';
-import {height, width} from '~utills/Dimension';
+import {height, width} from '../../utills/Dimension';
 import {StyleSheet} from 'react-native';
-import AppColors from '~utills/AppColors';
-import TabHeartActive from '~assets/images/tabHeartActive.png';
-import TabHeartInactive from '~assets/images/tabHeartInactive.png';
+import AppColors from '../../utills/AppColors';
+import TabHeartActive from '../../assets/images/tabHeartActive.png';
+import TabHeartInactive from '../../assets/images/tabHeartInactive.png';
 
-import LikeInactive from '~assets/images/likeInactive.png';
-import LikeActive from '~assets/images/likeActive.png';
+import LikeInactive from '../../assets/images/likeInactive.png';
+import LikeActive from '../../assets/images/likeActive.png';
 
-import ChatInactive from '~assets/images/chatInactive.png';
-import ChatActive from '~assets/images/chatActive.png';
+import ChatInactive from '../../assets/images/chatInactive.png';
+import ChatActive from '../../assets/images/chatActive.png';
 
-import ProfileActive from '~assets/images/profileActive.png';
-import ProfileInactive from '~assets/images/profileInactive.png';
+import ProfileActive from '../../assets/images/profileActive.png';
+import ProfileInactive from '../../assets/images/profileInactive.png';
 
 const CustomBottomTab = ({state, descriptors, navigation}) => {
   const icons = [

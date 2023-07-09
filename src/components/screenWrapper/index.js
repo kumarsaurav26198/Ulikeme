@@ -3,7 +3,7 @@ import {ImageBackground, SafeAreaView, StatusBar, View} from 'react-native';
 import styles from './styles';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {useIsFocused} from '@react-navigation/native';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../utills/AppColors';
 const ScreenWrapper = ({
   children,
   statusBarColor = AppColors.white,

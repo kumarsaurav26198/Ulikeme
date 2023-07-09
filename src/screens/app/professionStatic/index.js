@@ -6,7 +6,7 @@ import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import {setBottomTabVisible} from '~redux/slices/configSlice';
 import ScreenNames from '~routes/routes';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../../utills/AppColors';
 import styles from './styles';
 
 export default function ProfessionalStatic({navigation, route}) {

@@ -1,6 +1,5 @@
 import React from 'react';
 import { ActivityIndicator, Text, TouchableOpacity, View } from 'react-native';
-import AppColors from '~utills/AppColors';
 import styles from './styles';
 
 const IconButton = ({

@@ -8,10 +8,10 @@ import {
   SettingsSvg,
   SilverHeartSvg,
 } from '~components';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../../utills/AppColors';
 import styles from './styles';
 import Avatar from '~assets/images/Gabriela.png';
-import CommonStyles from '~utills/CommonStyles';
+import CommonStyles from '../../../utills/CommonStyles';
 import LinearGradient from 'react-native-linear-gradient';
 import ArrowDownSvg from '~components/arrowDownSvg';
 import BackArrowSvg from '~components/backArrowSvg';

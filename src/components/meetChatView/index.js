@@ -6,12 +6,11 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import AppColors from '~utills/AppColors';
 import styles from './styles';
 import Heart from '~assets/images/smallHeart.png';
 import MeetImage from '~assets/images/meetImage.png';
 import BackArrowSvg from '~components/backArrowSvg';
-import CommonStyles from '~utills/CommonStyles';
+import CommonStyles from '../../utills/CommonStyles';
 import ChevronDownSvg from '~components/chevronDownSvg';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import moment from 'moment';

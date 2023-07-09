@@ -6,7 +6,9 @@ import {
   Image,
   View,
 } from 'react-native';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../utills/AppColors';
+import {height, width} from '../../utills/Dimension';
+import Fonts from '../../utills/Fonts';
 import Like from '~assets/images/like.png';
 import Share from '~assets/images/yellowShare.png';
 import Heart from '~assets/images/heart.png';

@@ -9,7 +9,6 @@ import PhoneSvg from '~components/phoneSvg';
 import GmailSvg from '~components/gmailSvg';
 import FacebookSvg from '~components/facebookSvg';
 import IconButton from '~components/iconButton';
-import {height} from '~utills/Dimension';
 import BackArrowSvg from '~components/backArrowSvg';
 import ScreenNames from '~routes/routes';
 export default function Signin({navigation, route}) {

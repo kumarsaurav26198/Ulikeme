@@ -1,13 +1,11 @@
 import React, {useState} from 'react';
 import {View, Image, Text, TouchableOpacity} from 'react-native';
-import AppColors from '~utills/AppColors';
 import styles from './styles';
 import PagerView from 'react-native-pager-view';
 import Avatar3 from '~assets/images/match3.png';
 import MapIcon from '~assets/images/mapIcon.png';
 import CabIcon from '~assets/images/cabIcon.png';
-import CommonStyles from '~utills/CommonStyles';
-import {height, width} from '~utills/Dimension';
+import {height, width} from '../../utills/Dimension';
 import Button from '~components/button';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
