@@ -6,12 +6,12 @@ import {
   BigHeartSvg,
   BriefcaseSvg,
   ScreenWrapper,
-} from '~components';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
-import {setBottomTabVisible} from '~redux/slices/configSlice';
-import ScreenNames from '~routes/routes';
-import AppColors from '~utills/AppColors';
+} from '../../../components';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
+import {setBottomTabVisible} from '../../../redux/slices/configSlice';
+import ScreenNames from '../../../routes/routes';
+import AppColors from '../../../utills/AppColors';
 import styles from './styles';
 
 export default function AgePreferenceStatic({navigation, route}) {

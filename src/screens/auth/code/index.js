@@ -5,7 +5,7 @@ import {Button, ScreenWrapper} from '~components';
 import BackArrowSvg from '~components/backArrowSvg';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
-import {height} from '~utills/Dimension';
+import {height} from '../../../utills/Dimension';
 import styles from './styles';
 import ScreenNames from '~routes/routes';
 import {useDispatch} from 'react-redux';

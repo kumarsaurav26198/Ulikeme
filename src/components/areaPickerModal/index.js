@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import {ActivityIndicator, Text, TouchableOpacity, View} from 'react-native';
 import Modal from 'react-native-modal';
 import {Button, CrossSvg} from '~components';
-import AppColors from '~utills/AppColors';
-import {height} from '~utills/Dimension';
+import AppColors from '../../utills/AppColors';
 import styles from './styles';
 import {Picker} from '@react-native-picker/picker';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, Text, TouchableOpacity, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../utills/AppColors';
 import styles from './styles';
 
 const MatchOverlay = ({onBackdropPress = () => {}, leftPic, rightPic}) => {

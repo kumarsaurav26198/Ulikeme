@@ -9,8 +9,8 @@ import EmotionButtons from '~components/emotionButtons';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import ScreenNames from '~routes/routes';
-import AppColors from '~utills/AppColors';
-import {height} from '~utills/Dimension';
+import AppColors from '../../../utills/AppColors';
+import {height} from '../../../utills/Dimension';
 import styles from './styles';
 const creativityArray = [
   'Interés S',

@@ -5,7 +5,7 @@ import BackArrowSvg from '~components/backArrowSvg';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import ScreenNames from '~routes/routes';
-import {height} from '~utills/Dimension';
+import {height} from '../../../utills/Dimension';
 import styles from './styles';
 const emailReg =
   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;

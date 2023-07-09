@@ -1,17 +1,17 @@
 import React, {useLayoutEffect, useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
-import {Button, ScreenWrapper} from '~components';
-import Thumb from '~assets/images/sliderThumb.png';
-import BackArrowSvg from '~components/backArrowSvg';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import HeartRightSvg from '~components/heartRightSvg';
-import AppColors from '~utills/AppColors';
-import {height, width} from '~utills/Dimension';
+import {Button, ScreenWrapper} from '../../../components';
+import Thumb from '../../../assets/images/sliderThumb.png';
+import BackArrowSvg from '../../../components/backArrowSvg';
+import HeartLeftSvg from '../../../components/heartLeftSvg';
+import HeartRightSvg from '../../../components/heartRightSvg';
+import AppColors from '../../../utills/AppColors';
+import {height, width} from '../../../utills/Dimension';
 import Slider from '@react-native-community/slider';
 import styles from './styles';
-import ScreenNames from '~routes/routes';
+import ScreenNames from '../../../routes/routes';
 import {useDispatch} from 'react-redux';
-import { setBottomTabVisible } from '~redux/slices/configSlice';
+import { setBottomTabVisible } from '../../../redux/slices/configSlice';
 export default function AgePreference({navigation, route}) {
   const [ageRange, setAgeRange] = useState('18-37');
   const dispatch = useDispatch();

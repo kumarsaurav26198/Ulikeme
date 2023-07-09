@@ -6,8 +6,8 @@ import CenterHeart from '~assets/images/heartSilver.png';
 import {ScreenWrapper, TutorialPager} from '~components';
 import EmotionButtons from '~components/emotionButtons';
 import ScreenNames from '~routes/routes';
-import AppColors from '~utills/AppColors';
-import {height} from '~utills/Dimension';
+import AppColors from '../../../utills/AppColors';
+import {height} from '../../../utills/Dimension';
 import styles from './styles';
 export default function Home({navigation, route}) {
   const [showTutorial, setShowTutorial] = useState(true);

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { BaseUrl } from '~utills/Constants';
+import { BaseUrl } from '../utills/Constants';
 axios.defaults.baseURL = BaseUrl;
 axios.interceptors.response.use((response) => {
     return response?.data

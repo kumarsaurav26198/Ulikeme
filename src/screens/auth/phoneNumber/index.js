@@ -5,7 +5,7 @@ import {Button, ScreenWrapper} from '~components';
 import BackArrowSvg from '~components/backArrowSvg';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
-import {height, width} from '~utills/Dimension';
+import {height, width} from '../../../utills/Dimension';
 import CountryPicker from 'react-native-country-picker-modal';
 import styles from './styles';
 import ArrowDownSvg from '~components/arrowDownSvg';

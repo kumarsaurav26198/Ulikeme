@@ -7,9 +7,8 @@ import {SimpleHeader} from '~components/Header';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import {setBottomTabVisible} from '~redux/slices/configSlice';
-import AppColors from '~utills/AppColors';
-import CommonStyles from '~utills/CommonStyles';
-import {height} from '~utills/Dimension';
+import AppColors from '../../../utills/AppColors';
+import CommonStyles from '../../utills/CommonStyles';
 import styles from './styles';
 const benefitsArray = [
   {id: '1', title: 'Get 5 points', gradientText: 'See announcement'},

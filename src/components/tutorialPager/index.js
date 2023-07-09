@@ -19,11 +19,8 @@ import TutBg3 from '~assets/images/tut3.png';
 import Heart from '~assets/images/smallHeart.png';
 import Face from '~assets/images/centerImage.png';
 import Button from '~components/button';
-import AppColors from '~utills/AppColors';
-import {height, width} from '~utills/Dimension';
+import {height, width} from '../../utills/Dimension';
 import styles from './styles';
-import HeartLeftSvg from '~components/heartLeftSvg';
-import CommonStyles from '~utills/CommonStyles';
 
 const TutorialPager = ({endTutorial}) => {
   const [slides, setSlides] = useState([

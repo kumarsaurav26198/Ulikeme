@@ -1,13 +1,12 @@
 import React from 'react';
 import {TouchableOpacity, Text, Image, View} from 'react-native';
-import AppColors from '~utills/AppColors';
-import {UserEventType} from '~utills/Enums';
+import {UserEventType} from '../../utills/Enums';
 import styles from './styles';
 import Like from '~assets/images/like.png';
 import Heart from '~assets/images/heart.png';
 import Ulikeme from '~assets/images/user_ulikeme.png';
 import Calendar from '~assets/images/calendar_icon.png';
-import {width} from '~utills/Dimension';
+import {width} from '../../../utills/Dimension';
 import CrossSvg from '~components/crossSvg';
 
 const UserEvent = ({data, renderRight = null}) => {

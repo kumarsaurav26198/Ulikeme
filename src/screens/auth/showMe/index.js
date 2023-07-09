@@ -5,11 +5,11 @@ import BackArrowSvg from '~components/backArrowSvg';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import ScreenNames from '~routes/routes';
-import {height} from '~utills/Dimension';
+import {height} from '../../../utills/Dimension';
 import styles from './styles';
 import EmptyCircle from '~assets/images/unselectedCircle.png';
 import SelectedCircle from '~assets/images/selectedCircle.png';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../../utills/AppColors';
 export default function Showme({navigation, route}) {
   const [genders, setGenders] = useState(['Woman', 'Man', 'Everyone']);
   const [selectedGender, setSelectedGender] = useState('Men');

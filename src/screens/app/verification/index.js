@@ -16,9 +16,9 @@ import {
 import EmotionButtons from '~components/emotionButtons';
 import {SimpleHeader} from '~components/Header';
 import ScreenNames from '~routes/routes';
-import AppColors from '~utills/AppColors';
-import CommonStyles from '~utills/CommonStyles';
-import {height, width} from '~utills/Dimension';
+import AppColors from '../../../utills/AppColors';
+import CommonStyles from '../../../utills/CommonStyles';
+import {height, width} from '../../../utills/Dimension';
 import CountryPicker from 'react-native-country-picker-modal';
 import styles from './styles';
 import ArrowDownSvg from '~components/arrowDownSvg';

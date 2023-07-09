@@ -6,8 +6,8 @@ import BackArrowSvg from '~components/backArrowSvg';
 import HeartLeftSvg from '~components/heartLeftSvg';
 import HeartRightSvg from '~components/heartRightSvg';
 import {login} from '~redux/slices/authSlice';
-import AppColors from '~utills/AppColors';
-import CommonStyles from '~utills/CommonStyles';
+import AppColors from '../../../utills/AppColors';
+import CommonStyles from '../../../utills/CommonStyles';
 import styles from './styles';
 export default function AddPhotos({navigation, route}) {
   const [photos, setPhotos] = useState([

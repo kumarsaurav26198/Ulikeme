@@ -6,14 +6,14 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../utills/AppColors';
 import styles from './styles';
 import StatusImg1 from '~assets/images/statusOverlay1.png';
 import StatusImg2 from '~assets/images/statusOverlay2.png';
 import StatusImg3 from '~assets/images/statusOverlay3.png';
 import ReadyToMeet from '~assets/images/readyToMeetOverlay.png';
 import LinearGradient from 'react-native-linear-gradient';
-import {height, width} from '~utills/Dimension';
+
 const StatusOverlay = ({status = 1, close = () => {}}) => {
   const data = [
     {

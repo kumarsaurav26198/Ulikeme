@@ -7,16 +7,16 @@ import {
   View,
 } from 'react-native';
 import {Header, MatchOverlay, ScreenWrapper} from '~components';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../../utills/AppColors';
 import styles from './styles';
 import Man1 from '~assets/images/man1.png';
 import Man2 from '~assets/images/man2.png';
 import LinearGradient from 'react-native-linear-gradient';
 import PagerView from 'react-native-pager-view';
-import CommonStyles from '~utills/CommonStyles';
-import {height, width} from '~utills/Dimension';
+import CommonStyles from '../../../utills/CommonStyles';
+import {height, width} from '../../../utills/Dimension';
 import EmotionButtons from '~components/emotionButtons';
-import {EmotionTypes} from '~utills/Enums';
+import {EmotionTypes} from '../../../utills/Enums';
 import HeartOverlay from '~assets/images/heartReactOverlay.png';
 import Match1 from '~assets/images/matchOverlay1.png';
 import Match2 from '~assets/images/matchOverlay2.png';

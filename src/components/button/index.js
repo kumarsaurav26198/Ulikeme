@@ -1,6 +1,8 @@
 import React from 'react';
 import { ActivityIndicator, Text, TouchableOpacity, View } from 'react-native';
-import AppColors from '~utills/AppColors';
+import AppColors from '../../utills/AppColors';
+import {height, width} from '../../utills/Dimension';
+import Fonts from '../../utills/Fonts';
 import styles from './styles';
 
 const Button = ({
