@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122415680536",
+    "project_id": "ulikeme-5272b",
+    "storage_bucket": "ulikeme-5272b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122415680536:android:e050c1da10c640c251476d",
+        "android_client_info": {
+          "package_name": "com.ulikeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122415680536-80h5jbvqn9gokk9cptu0euuspfhekb4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv0ypAFF-Xme05a8dJugFMfaHQOk3N2jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122415680536-80h5jbvqn9gokk9cptu0euuspfhekb4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
