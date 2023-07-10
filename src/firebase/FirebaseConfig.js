@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword ,signInWithPhoneNumber} from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { initializeApp } from "@react-native-firebase/app";
+import { getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword ,signInWithPhoneNumber} from "@react-native-firebase/auth";
+
 
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -9,17 +9,18 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBJ7sMVZG8S9yIYhMXhBAdwx_M8IFHPR5I",
-    authDomain: "rwefirebase.firebaseapp.com",
-    projectId: "rwefirebase",
-    storageBucket: "rwefirebase.appspot.com",
-    messagingSenderId: "338370821044",
-    appId: "1:338370821044:web:c6eeab33fa1bd59c4850e1"
+  apiKey: "AIzaSyA1i0EsED9eBmeIaJBrB5fxeIxalDvP5HE",
+  authDomain: "ulikeme-5272b.firebaseapp.com",
+  projectId: "ulikeme-5272b",
+  storageBucket: "ulikeme-5272b.appspot.com",
+  messagingSenderId: "122415680536",
+  appId: "1:122415680536:web:0dbc89c8fd01fce651476d",
+  measurementId: "G-M5WEDB7KZ3"
 };
 
  export const FIREBASE_APP = initializeApp(firebaseConfig);
- export const FIREBASE_AUTH = getAuth(FIREBASE_APP);
- export const FIREBASE_DB = getFirestore(FIREBASE_APP);
+//  export const FIREBASE_AUTH = getAuth(FIREBASE_APP);
+//  export const FIREBASE_DB = getFirestore(FIREBASE_APP);
 
  export const userSignIn = async (email, password) => {
     try
@@ -64,3 +65,8 @@ export const usserSignUp = async (email, password) => {
     }
   };
   
+ export  const handleSignOut=async()=>{
+  auth()
+  .signOut()
+  .then(() => console.log('User signed out!'));
+ }

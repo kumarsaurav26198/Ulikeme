@@ -10,7 +10,7 @@ import CountryPicker from 'react-native-country-picker-modal';
 import styles from './styles';
 import ArrowDownSvg from '../../../components/arrowDownSvg';
 import ScreenNames from '../../../routes/routes';
-import { handleSignInWithPhone } from '~firebase/FirebaseConfig';
+import { handleSignInWithPhone } from '../../../firebase/FirebaseConfig';
 export default function Signin({navigation, route}) {
   const isFromLogin = route?.params?.isFromLogin || false;
   const dispatch = useDispatch();
@@ -70,7 +70,7 @@ export default function Signin({navigation, route}) {
         </Text>
         <Button
           onPress={() =>{
-            // handleSignInWithPhone(phoneNum)
+            handleSignInWithPhone(phoneNum)
             navigation.navigate(ScreenNames.CodeScreen, {
               isFromLogin: isFromLogin,
             })}}
